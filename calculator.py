@@ -16,9 +16,9 @@ def calculator():
         # Check if the user input is a valid operator
         elif user_input in ["+", "-", "*", "/"]:
             # Get first number
-            num1 = float(input("Enter First number: "))
+            num1 = float(input("Enter num1 number: "))
             # Get second number
-            num2 = float(input("Enter Second number: "))
+            num2 = float(input("Enter num2 number: "))
 
             # Perform the operation based on the user input
             if user_input == "+":
